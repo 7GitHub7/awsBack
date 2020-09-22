@@ -120,8 +120,8 @@ app.post('/sendtosqs', (req, res) => {
       }
     },
     MessageBody: name,
-    MessageDeduplicationId: name,  // Required for FIFO queues
-    MessageGroupId: "Group1",  // Required for FIFO queues
+    MessageDeduplicationID: name,  // Required for FIFO queues
+    MessageGroupID: "Group1",  // Required for FIFO queues
     QueueUrl: "https://sqs.us-east-1.amazonaws.com/431322998222/test.fifo"
   };
   console.log(params.MessageBody)
