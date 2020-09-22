@@ -18,9 +18,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const AWS = require('aws-sdk')
 
 AWS.config.update({
-  accessKeyId: 'ASIAWI3G2UXHJHSUFUHY',
-  secretAccessKey: '0z6xo46tdDcU+kTXsMJz1csw5h5Doqe5pW2mJ3zv',
-  sessionToken: "FwoGZXIvYXdzEIT//////////wEaDPtgrb1CcgAsaG/o6iLDAbwfvxBIs73jmacAS/h1UiiKW4sWTAPLZLfXtuP0xVHot1Wl2jAAucy9WC5iHlQxKLuEQdixqc5zqsjtL6+6ylD6DSChmJ8VTqC0T0OdUcv2rNopVbLrk6gnJqndANPlxHA70xXlf78mUunuyBA2HF++o4z5sFl9x87cHVcr3eLs1KUaW5B/sHTiMOkkHq6LHOnG08rtcAomfN4OoGEuNZv+KAxdBBIuyztiJXlsgU5Of8IApldAvk/g71LPxX9p9R/jUCjgsKf7BTItF2q2mfrxqNPBkYQCZxLucK6HfsgjdtgYDh/CIRWtKCokhtBuEfbSlRdaaWXD"
+  accessKeyId: 'ASIAWI3G2UXHO5HWYL5N',
+  secretAccessKey: 'KNoTFJWe71fwo0DZMDpQnn3HrRCgBssiDRmZBXvb',
+  sessionToken: "FwoGZXIvYXdzEIn//////////wEaDAnOQqvnxtkauSwy2yLDAUCxRepbotka9iYddLOwb7dJs8WqQuWmD4GSQnt34h4oyMJ88Yw0Sxt3fcetSvtpV1O2AbAB2gci4MgVOZOowDSnSGByEySGASgtzdJ2x0YP36Da3jPfR3sejRVRZGwOmZz3AkI7WB+MjIM0VeeJDBlXz2Ta7xpvErb180Pypu+0S3sP4TFI6HOQBrgK41QO5847lDUdvg3lRx+QK1JXWZrfTFB7x55y9T+RWNLc+kdlxzD0AzIlE3cktDu0EDrQg2UYRyiqr6j7BTItAkI7Jx783dpBVuEvNet7Ch2D8xgTbdvQFKDPq7TJxH3O75X/z8mCanazw+gK"
 })
 AWS.config.update({ region: 'us-east-1' })
 
